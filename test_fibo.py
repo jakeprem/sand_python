@@ -5,7 +5,7 @@ class TestFiboMethods(unittest.TestCase):
 
   def test_fib(self):
       # self.assertEqual(fibo.fib(1000), 'FOO')
-      self.assertEqual(fibo.fib(1000), '1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987')
+      self.assertEqual(fibo.fib(1000), "1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987")
 
   def test_fib2(self):
       self.assertTrue('FOO'.isupper())
