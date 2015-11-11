@@ -3,7 +3,7 @@ import unittest
 class TestStringMethods(unittest.TestCase):
 
   def test_upper(self):
-    self.assertEqal('FOO'.lower(), 'FOO')
+    self.assertEqual('FOO'.lower(), 'FOO')
     # self.assertEqual('foo'.upper(), 'FOO')
 
   def test_isupper(self):
