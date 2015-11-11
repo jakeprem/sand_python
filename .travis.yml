@@ -5,3 +5,5 @@ script: python test_fibo.py
 branches:
   only:
     - master
+notifications:
+  slack: cedarvillecswebsite:SmOAAzhNylgMxkOQxQqibutT
